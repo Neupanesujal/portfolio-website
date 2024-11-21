@@ -3,107 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Sujal Neupane | Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    <title>Portfolio | Sujal Neupane</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-   <div class="container">
-      <nav id="header">
-        <div class="nav-logo">
-            <p class="nav-name">Sujal</p>
-            <span>.</span>
-        </div>
-        <div class="nav-menu" id="myNavMenu">
-            <ul class="nav_menu_list">
-                <li class="nav_list"><a href="#home" class="nav-link active-link">Home</a></li>
-                <li class="nav_list"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav_list"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav_list"><a href="#contact" class="nav-link">Contact</a></li>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">SN</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-        </div>
-        <div class="nav-menu-btn"><i class="uil uil-bars" onclick="myMenuFunction()"></i></div>
-      </nav>
-    <main class="wrapper">
-       <section class="featured-box" id="home">
-          <div class="featured-text">
-            <div class="featured-text-card"><span>Machine Learning Engineer</span></div>
-            <div class="featured-name">
-                <p>I'm <span class="typedText"></span></p>
-            </div>
-            <div class="featured-text-info">
-                <p>Recent graduate with expertise in machine learning, computer vision, and software development. Passionate about building intelligent systems.</p>
-            </div>
-            <div class="featured-text-btn">
-                <button class="btn blue-btn">Hire Me</button>
-                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
-            </div>
-            <div class="social_icons">
-                <div class="icon"><a href="https://github.com/Neupanesujal" target="_blank"><i class="uil uil-github-alt"></i></a></div>
-            </div>
-          </div>
-          <div class="featured-image"><img src="assets/images/avatar.png" alt="avatar"></div>
-       </section>
-       <section class="section" id="about">
-          <div class="top-header">
-            <h1>About Me</h1>
-          </div>
-          <div class="row">
-            <div class="col">
-                <div class="about-info">
-                    <h3>Introduction</h3>
-                    <p>Graduated in Electronics, Communication, and Information Engineering with hands-on experience in machine learning, Flutter development, and backend programming.</p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Sujal Neupane</h1>
+                <p>AI Engineer & Game Developer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
                 </div>
             </div>
-            <div class="col">
-                <div class="skills-box"><h3>Skills</h3>
-                    <span>Python</span> <span>C++</span> <span>TensorFlow</span> <span>PyTorch</span> <span>Dart</span>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="profile-image">
+                        <img src="assets/images/avatar.png" alt="Profile Picture" class="profile-picture">
+                    </div>
+                    <div class="about-text">
+                        <p>Passionate AI and game development professional with expertise in machine learning, computer vision, and interactive game design. Committed to creating innovative technological solutions.</p>
+                    </div>
                 </div>
             </div>
-          </div>
-       </section>
-       <section class="section" id="projects">
-          <div class="top-header"><h1>Projects</h1></div>
-          <div class="project-container">
-            <div class="project-box">
-                <i class="uil uil-microscope"></i>
-                <h3>Speech Recognition</h3>
-                <label>Built an ASR system using DeepSpeech2.</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-location-point"></i>
-                <h3>Heritage Detection</h3>
-                <label>YOLOv8-based model integrated with a Flutter app.</label>
-            </div>
-            <div class="project-box">
-                <i class="uil uil-car"></i>
-                <h3>Self-Driving Cars</h3>
-                <label>Transfer learning using MobileNet and ResNet.</label>
-            </div>
-          </div>
-       </section>
-       <section class="section" id="contact">
-          <div class="top-header"><h1>Contact Me</h1></div>
-          <div class="row">
-             <div class="col">
-                <div class="contact-info">
-                    <h2>Reach Out</h2>
-                    <p><i class="uil uil-envelope"></i> Email: sujalneupane9@gmail.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +977 9867499462</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Machine Learning</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-unity"></i>
+                        <h3>Unity</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-video"></i>
+                        <h3>OpenCV</h3>
+                    </div>
                 </div>
-             </div>
-          </div>
-       </section>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>AI Game Bot</h3>
+                        <p>Reinforcement learning-powered game bot</p>
+                        <a href="https://github.com/Neupanesujal/AI-Enhanced-First-Person-Shooter" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Saheta Chatbot</h3>
+                        <p>Chatbot to load pdf and query about documents</p>
+                        <a href="https://github.com/Neupanesujal/Saheta-Chatbot" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Object Detection</h3>
+                        <p>Detect cars, pedestrians, and traffic lights for slef driving car</p>
+                        <a href="https://github.com/Neupanesujal/object-detection-model-for-a-self-driving-car-project" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>Copyright &copy; Sujal Neupane - All rights reserved</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sujal-neupane/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Neupanesujal"><i class="fab fa-github"></i></a>
+            <a href="sujalneupane9@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2024 Sujal Neupane. All Rights Reserved.</p>
     </footer>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="assets/js/main.js"></script>
 </body>
 </html>
