@@ -3,206 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujal Neupane - AI Engineer & Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Sujal Neupane | Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">Sujal Neupane</div>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">SN</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="mobile-menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Sujal Neupane</h1>
-            <div class="hero-subtitle">AI Engineer & Developer</div>
-            <p>I create intelligent solutions with machine learning, computer vision, and innovative AI technologies</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="cta-button">View My Work</a>
-                <a href="#contact" class="cta-button secondary">Get In Touch</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title fade-in">About Me</h2>
-            <div class="about-content">
-                <div class="about-image fade-in">
-                    <div class="profile-placeholder">
-                        <img src="./assets/images/profile.png" alt="Sujal Neupane" class="profile-img">
-                    </div>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Sujal Neupane</h1>
+                <p>AI Engineer & Game Developer</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Hire Me</a>
                 </div>
-                <div class="about-text fade-in">
-                    <h3>Hi, I'm Sujal!</h3>
-                    <p>I've always been curious about how things work. My love for mathematics and logical thinking naturally pulled me into the world of Artificial Intelligence and Machine Learning, where I get to mix problem-solving with creativity.</p>
-                    <p>I enjoy breaking down complex challenges, experimenting with ideas, and building solutions that turn data into something meaningful. Whether it's computer vision, natural language processing, or just tinkering with models, I love exploring the endless possibilities of AI.</p>
-                    <p>When I'm not coding, you'll find me playing chess, table tennis, football, or cricket. I also enjoy traveling (though mostly between home, college, and office for now!).</p>
-                    <div class="skills">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Machine Learning</span>
-                        <span class="skill-tag">Deep Learning</span>
-                        <span class="skill-tag">Computer Vision</span>
-                        <span class="skill-tag">NLP</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">Unity</span>
-                        <span class="skill-tag">OpenCV</span>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="profile-image">
+                        <img src="assets/images/avatar.png" alt="Profile Picture" class="profile-picture">
+                    </div>
+                    <div class="about-text">
+                        <p>Passionate AI and game development professional with expertise in machine learning, computer vision, and interactive game design. Committed to creating innovative technological solutions.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section">
-        <div class="container">
-            <h2 class="section-title fade-in">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-robot"></i>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
                     </div>
-                    <div class="project-content">
-                        <h3>AI-Enhanced First-Person Shooter</h3>
-                        <p>Developed a Unity game with reinforcement learning-powered enemies using ML-Agents library and PPO algorithm for intelligent gameplay behaviors.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/Neupanesujal/AI-Enhanced-First-Person-Shooter" class="project-link primary" target="_blank">GitHub</a>
-                        </div>
+                    <div class="skill-card">
+                        <i class="fas fa-brain"></i>
+                        <h3>Machine Learning</h3>
                     </div>
-                </div>
-                
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-comments"></i>
+                    <div class="skill-card">
+                        <i class="fab fa-unity"></i>
+                        <h3>Unity</h3>
                     </div>
-                    <div class="project-content">
-                        <h3>Saheta - RAG Chatbot</h3>
-                        <p>Built a RAG-based chatbot using Llama 3.2 that answers queries from PDFs with Streamlit interface and FAISS vector store for document retrieval.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/Neupanesujal/Saheta-Chatbot" class="project-link primary" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-car"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Self-Driving Car Object Detection</h3>
-                        <p>Developed an object detection model using transfer learning from ResNet to detect cars, pedestrians, traffic signs, and other critical objects for autonomous vehicles.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/Neupanesujal/object-detection-model-for-a-self-driving-car-project" class="project-link primary" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-fire"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Forest Fire Detection</h3>
-                        <p>CNN-based model for forest fire detection using aerial imagery, designed for drone integration. Achieved 96% accuracy with extensive data augmentation.</p>
-                        <div class="project-links">
-                            <a href="https://github.com/fuseai-fellowship/Real-time-Forest-Fire-Detection-from-Satellite-Image" class="project-link secondary" target="_blank">GitHub</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-id-card"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Nepali License Plate Recognition</h3>
-                        <p>Custom OCR system using CNN architecture and fine-tuned TesseractOCR for accurate Nepali license plate recognition with Roboflow data annotation.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link secondary">Private Repo</a>
-                        </div>
+                    <div class="skill-card">
+                        <i class="fas fa-video"></i>
+                        <h3>OpenCV</h3>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <h2 class="section-title fade-in">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info fade-in">
-                    <h3>Let's Work Together</h3>
-                    <p>I'm always interested in hearing about new opportunities and exciting projects. Whether you have a question about AI/ML, want to discuss a potential collaboration, or just want to say hi, feel free to reach out!</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>sujalneupane9@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>+977 9867499462</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Kathmandu, Nepal</span>
-                        </div>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>AI Game Bot</h3>
+                        <p>Reinforcement learning-powered game bot</p>
+                        <a href="https://github.com/Neupanesujal/AI-Enhanced-First-Person-Shooter" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Saheta Chatbot</h3>
+                        <p>Chatbot to load pdf and query about documents</p>
+                        <a href="https://github.com/Neupanesujal/Saheta-Chatbot" class="btn">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Object Detection</h3>
+                        <p>Detect cars, pedestrians, and traffic lights for slef driving car</p>
+                        <a href="https://github.com/Neupanesujal/object-detection-model-for-a-self-driving-car-project" class="btn">View Project</a>
                     </div>
                 </div>
-                <form class="contact-form fade-in" id="contactForm">
-                    <div class="success-message" id="successMessage">
-                        Thank you for your message! I'll get back to you soon.
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn" id="submitBtn">Send Message</button>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="social-links">
-                <a href="https://github.com/Neupanesujal" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/sujal-neupane/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:sujalneupane9@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
-            </div>
-            <p>&copy; 2024 Sujal Neupane. All rights reserved.</p>
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sujal-neupane/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Neupanesujal"><i class="fab fa-github"></i></a>
+            <a href="sujalneupane9@gmail.com"><i class="fas fa-envelope"></i></a>
         </div>
+        <p>© 2024 Sujal Neupane. All Rights Reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="assets/js/config.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

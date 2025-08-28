@@ -1,8 +1,0 @@
-
-# EmailJS Config
-assets/js/config.js
-
-
-.DS_Store
-node_modules/
-*.log
